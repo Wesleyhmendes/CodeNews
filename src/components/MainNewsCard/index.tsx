@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { MainNewsItem } from '../../types';
 import fullHeart from '../../assets/full-heart.svg';
 import emptyHeart from '../../assets/empty-heart.svg';
@@ -57,11 +56,12 @@ function MainNewsCard() {
     if (newsItem?.imagens) setImg(JSON.parse(newsItem.imagens as any).image_fulltext);
   }, [newsItem]);
 
+  const url = `http://agenciadenoticias.ibge.gov.br/${img}`;
   return (
     <div className={ style.MainNewsMainSection }>
       <img
         className={ style.MainNewsImg }
-        src={ `http://agenciadenoticias.ibge.gov.br/${img}` }
+        src={ url }
         alt="img"
       />
       <div className={ style.MainNewsTextDiv }>

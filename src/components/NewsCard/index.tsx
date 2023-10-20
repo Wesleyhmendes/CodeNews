@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { NewsItem } from '../../types';
 import fullHeart from '../../assets/full-heart.svg';
 import emptyHeart from '../../assets/empty-heart.svg';

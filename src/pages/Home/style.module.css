@@ -12,7 +12,6 @@
   }
   
   .HomeFilterDiv {
-    
     align-items: center;
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(14px);
@@ -21,6 +20,7 @@
     height: 67px;
     margin: 0 auto;
     margin-bottom: 36px;
+    margin-top: 45px;
     padding-left: 25px;
     width: 1366px;
   }
@@ -102,7 +102,6 @@
     width: fit-content;
   }
   .HomeFilterDiv {
-    
     align-items: center;
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(14px);
@@ -110,11 +109,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 5px;
     height: fit-content;
     margin: 0 auto;
     margin-bottom: 36px;
-    padding: 5px;
+    padding: 9px;
     width: fit-content;
   }
   
@@ -202,13 +201,13 @@
     backdrop-filter: blur(14px);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 15px;
     height: fit-content;
     margin: 0 auto;
     margin-bottom: 36px;
-    padding: 5px;
+    padding: 15px;
     width: 90%;
   }
   

@@ -1,0 +1,281 @@
+@media only screen and (min-width: 1419px) {
+
+  
+  .HomeCardDiv {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1366px;
+  }
+  
+  .HomeFilterDiv {
+    
+    align-items: center;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(14px);
+    display: flex;
+    gap: 35px;
+    height: 67px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    padding-left: 25px;
+    width: 1366px;
+  }
+  
+  .HomeFilterBtnTrue {
+    
+    border: none;
+    border-bottom: 1px solid #C31815;
+    background-color: transparent;
+    color: var(--Text, #2A2A2A);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .HomeFilterBtnFalse {
+    border: none;
+    background-color: transparent;
+    color: var(--Text, #2A2A2A);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .HomeNewCardDiv {
+    
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    filter: drop-shadow(0px 2px 14px rgba(42, 42, 42, 0.24));
+    height: 331px;
+    margin-bottom: 25px;
+    width: 438px;
+  }
+  
+  .HomeMoreNewsDiv {
+    
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    transition: ease 0.3s;
+    width: fit-content;
+  }
+  
+  .HomeMoreNewsBtn {
+    border: 1px solid #C31815;
+    border-radius: 2px;
+    color: #C31815;
+    flex-shrink: 0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 1.6px;
+    line-height: 107.143%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 220px;
+  }
+  
+  .HomeMoreNewsBtn:hover {
+    background-color: #C31815;
+    border: none;
+    color: #FFF;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .HomeCardDiv {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+  .HomeFilterDiv {
+    
+    align-items: center;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(14px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    padding: 5px;
+    width: fit-content;
+  }
+  
+  .HomeFilterBtnTrue {
+    
+    border: none;
+    border-bottom: 1px solid #C31815;
+    background-color: transparent;
+    color: var(--Text, #2A2A2A);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .HomeFilterBtnFalse {
+    border: none;
+    background-color: transparent;
+    color: var(--Text, #2A2A2A);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .HomeNewCardDiv {
+    
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    filter: drop-shadow(0px 2px 14px rgba(42, 42, 42, 0.24));
+    height: fit-content;
+    margin-bottom: 25px;
+    width: fit-content;
+  }
+  
+  .HomeMoreNewsDiv {
+    
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    transition: ease 0.3s;
+    width: fit-content;
+  }
+  
+  .HomeMoreNewsBtn {
+    border: 1px solid #C31815;
+    border-radius: 2px;
+    color: #C31815;
+    flex-shrink: 0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 1.6px;
+    line-height: 107.143%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 220px;
+  }
+  
+  .HomeMoreNewsBtn:hover {
+    background-color: #C31815;
+    border: none;
+    color: #FFF;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1418px) {
+  .HomeCardDiv {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .HomeFilterDiv {
+    
+    align-items: center;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(14px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    padding: 5px;
+    width: 90%;
+  }
+  
+  .HomeFilterBtnTrue {
+    
+    border: none;
+    border-bottom: 1px solid #C31815;
+    background-color: transparent;
+    color: var(--Text, #2A2A2A);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .HomeFilterBtnFalse {
+    border: none;
+    background-color: transparent;
+    color: var(--Text, #2A2A2A);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .HomeNewCardDiv {
+    
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    filter: drop-shadow(0px 2px 14px rgba(42, 42, 42, 0.24));
+    height: fit-content;
+    margin-bottom: 25px;
+    width: fit-content;
+  }
+  
+  .HomeMoreNewsDiv {
+    
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    transition: ease 0.3s;
+    width: fit-content;
+  }
+  
+  .HomeMoreNewsBtn {
+    border: 1px solid #C31815;
+    border-radius: 2px;
+    color: #C31815;
+    flex-shrink: 0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 1.6px;
+    line-height: 107.143%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 220px;
+  }
+  
+  .HomeMoreNewsBtn:hover {
+    background-color: #C31815;
+    border: none;
+    color: #FFF;
+  }
+}

@@ -26,6 +26,9 @@ Para fazer a instalação do projeto:
 - Execute `npm install` para instalar as dependências
 - Crie uma nova branch com `git checkout -b <nome-da-branch>`
 
+## Veja a aplicação rodando
+Você pode ver nossa aplicação funcionando. Veja agora o [Code News](https://code-news-mocha.vercel.app/).
+
 ## Próximos passos
 Algumas features irão ser implementadas no futuro, bem como:
 - Página de detalhes das notícias
